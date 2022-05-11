@@ -1,0 +1,64 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #000000;
+}
+
+.Bbutton {
+    text-decoration: none;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.Bbutton:hover {
+    transition: 1s all;
+    background-color: #a09a9a;
+    border-radius: 5px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+nav a:hover {
+    border-radius: 10px;
+}
+
+nav a:active {
+    border-color: greenyellow;
+}
+
+.conteudo {
+    width: 640px;
+    margin: 0 auto; 
+}
+
+.lb {
+    width: 40%;
+    display: inline-block;
+}
+
+.logo {
+    width: 500px;
+}
