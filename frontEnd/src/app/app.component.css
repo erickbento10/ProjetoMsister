@@ -7,10 +7,6 @@ p {
     color: whitesmoke;
 }
 
-img {
-    filter: opacity(0.4) drop-shadow(0 0 0 whitesmoke);
-}
-
 nav {
     position: absolute;
     top: 110px;
@@ -61,7 +57,6 @@ nav a {
 
 .conteudobene {
     width: 640px;
-    margin: 0 auto;
 }
 
 .listabene {
@@ -87,11 +82,11 @@ nav a {
     width: 350px;
     margin: 0 5 10px;
     box-shadow: 10px 10px 16px;
-    filter: opacity(0.4) drop-shadow(0 0 0 #000000);
 }
 
 .imagemtep {
     width: 200px;
+    filter: opacity(0.4) drop-shadow(0 0 0 whitesmoke);
 }
 
 @media screen and (max-width: 480px) {
@@ -106,6 +101,7 @@ nav a {
 
 .imagemsis {
     filter: opacity(0.4) drop-shadow(0 0 0 #000000);
+
 }
 
 .estabe {
