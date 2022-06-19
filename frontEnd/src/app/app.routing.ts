@@ -1,12 +1,12 @@
 import { ModuleWithProviders } from '@angular/core';
 import {Routes, RouterModule} from '@angular/Router';
 
-import {PhotoComponent} from './photo/photo.component';
+import {PhotosComponent} from './photos/photos.component';
 import { AppComponent } from './app.component';
 
 const APP_ROUTES: Routes = [ 
 {path: "Home", component:AppComponent} ,   
-{ path: "Fotos", component: PhotoComponent},
+{ path: "fotos", component: PhotosComponent},
 
 ];
 
