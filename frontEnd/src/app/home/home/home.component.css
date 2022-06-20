@@ -1,0 +1,130 @@
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+    color:whitesmoke
+}
+
+nav li {
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.kaixa {
+    position: relative;
+    width: 940px;
+}
+
+.botao {
+    color: whitesmoke;
+}
+
+
+.botao:hover {
+    transition: 1s all;
+    background-color: #2b2929;
+    border-radius: 5px;
+}
+
+
+.par {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.para {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.imgt {
+    width: 100px;
+}
+
+.parag {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+
+.conteudobene {
+    width: 640px;
+}
+
+.listabene {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itensbene {
+    line-height: 1.5;
+    font-size: 13px;
+}
+
+.itensbene::before {
+    content: "★";
+}
+
+.itensbene:first-child {
+    font-weight: bold;
+}
+
+.imagembene {
+    position: absolute;
+    display: inline-block;
+    padding: 10px 200px 5px 30px;
+    width: 350px;
+    margin: 20px 5px 10px;
+    box-shadow: 10px 10px 16px;
+}
+
+.imagemtep {
+    width: 200px;
+    filter: opacity(0.4) drop-shadow(0 0 0 whitesmoke);
+}
+
+@media screen and (max-width: 480px) {
+    .kaixa {
+        width: auto;
+    }
+}
+
+.paragrafo {
+    margin-left: 180px;
+}
+
+.imagemsis {
+    filter: opacity(0.4) drop-shadow(0 0 0 #000000);
+
+}
+
+.estabe {
+    margin-left: 235px;
+}
+
+.estabe::before {
+    content: "×";
+}
+
+.estabe::after {
+    content: "×";
+}
+
+.copyr {
+  width: 350px;
+}

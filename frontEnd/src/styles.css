@@ -2,6 +2,12 @@
 
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #000000;
+    background-color: #000000
+}
+
+.imagemsis{
+
+    display: inline;
+    top: 110px;
+    right: 22220;
 }
