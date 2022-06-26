@@ -1,0 +1,176 @@
+head {
+    background: #000000;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000000;
+}
+
+p {
+    color: whitesmoke;
+}
+
+img {
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));  
+}
+
+li {
+    background-color: #000000;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    transition: 1s;
+    color: whitesmoke;
+}
+
+nav a:hover {
+    background-color: #2b2a2a;
+    transition: 1s all;
+    border-radius: 5px;
+}
+
+nav a:active {
+    transition: 0.5s all;
+    font-size: 19px;
+}
+
+title {
+    color: whitesmoke;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.caixa {     
+    position: relative;     
+    width: 940px; 
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #CCCCCC;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: #CCCCCC;
+    font-size: 18px;
+    transition: 1s;
+}
+
+.produtos li:active {
+    border-color: rgb(73, 73, 73);
+}
+
+.produtos li:hover h2 {
+    font-size: 25px;
+    transition: 1s;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.Cabelo {
+    width: 250px;
+    transition: 1s;
+    border-radius: 5px;
+}
+
+.masc {
+    width: 250px;
+    transition: 1s;
+    border-radius: 5px;
+}
+
+.pacote {
+    width: 250px;
+    transition: 1s;
+    border-radius: 5px;
+}
+
+.progressiva {
+    width: 200px;
+    margin: 0 40 1.5%;
+    transition: 1s;
+    border-radius: 5px;
+}
+
+.botox {
+    width: 250px;
+    transition: 1s;
+    border-radius: 5px;
+}
+
+.descricao {
+    font-weight: bold;
+    transition: 1s;
+}
+
+.preco {
+    font-weight: bold;
+    transition: 1s;
+}
+
+footer {
+    text-align: center;
+}
+
+.copyright {
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+.lgtp {
+    width: 400px;
+    background-color: #000000;
+    color: whitesmoke;
+    filter: opacity(0.4) drop-shadow(0 0 0 #000000);
+}
+
+.parte {
+    color: whitesmoke;
+}
+
+.imgfo {
+    filter: opacity(0.4) drop-shadow(0 0 0 #000000);
+}
