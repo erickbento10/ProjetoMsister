@@ -137,6 +137,11 @@ nav a:hover {
     border-radius: 5px;
 }
 
+nav a:active {
+    transition: 0.3s;
+    font-size: 21px;
+}
+
 main {
     width: 940px;
 }
