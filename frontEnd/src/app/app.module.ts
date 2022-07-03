@@ -1,4 +1,4 @@
-import { PhotosModule } from './photo/photo.module';
+import { PhotosModule } from './photos/photos.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 

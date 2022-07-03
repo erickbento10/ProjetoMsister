@@ -11,10 +11,6 @@ p {
     color: whitesmoke;
 }
 
-img {
-    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));  
-}
-
 li {
     background-color: #000000;
 }
@@ -114,18 +110,21 @@ title {
     width: 250px;
     transition: 1s;
     border-radius: 5px;
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));
 }
 
 .masc {
     width: 250px;
     transition: 1s;
     border-radius: 5px;
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));
 }
 
 .pacote {
     width: 250px;
     transition: 1s;
     border-radius: 5px;
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));
 }
 
 .progressiva {
@@ -133,12 +132,14 @@ title {
     margin: 0 40 1.5%;
     transition: 1s;
     border-radius: 5px;
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));
 }
 
 .botox {
     width: 250px;
     transition: 1s;
     border-radius: 5px;
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));
 }
 
 .descricao {
@@ -164,13 +165,10 @@ footer {
     width: 400px;
     background-color: #000000;
     color: whitesmoke;
-    filter: opacity(0.4) drop-shadow(0 0 0 #000000);
 }
 
 .parte {
     color: whitesmoke;
 }
 
-.imgfo {
-    filter: opacity(0.4) drop-shadow(0 0 0 #000000);
-}
+

@@ -20,7 +20,6 @@ nav li {
 nav a {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    font-weight: bold;
     font-size: 22px;
     text-decoration: none;
 }
@@ -41,6 +40,10 @@ nav a {
     border-radius: 5px;
 }
 
+.botao:active {
+    font-size: 21px;
+    transition: 00.5s;
+}
 
 .par {
     font-family: 'Montserrat', sans-serif;
