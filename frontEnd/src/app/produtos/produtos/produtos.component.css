@@ -11,10 +11,6 @@ p {
     color: whitesmoke;
 }
 
-img {
-    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));  
-}
-
 li {
     background-color: #000000;
 }
@@ -37,10 +33,10 @@ nav a {
     text-decoration: none;
     transition: 1s;
     color: whitesmoke;
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));  
 }
 
 nav a:hover {
-    background-color: #2b2a2a;
     transition: 1s all;
     border-radius: 5px;
 }
@@ -57,7 +53,7 @@ title {
 .produtos {
     width: 940px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 50px
 }
 
 .caixa {     
@@ -85,9 +81,7 @@ title {
     transition: 1s;
 }
 
-.produtos li:active {
-    border-color: rgb(73, 73, 73);
-}
+
 
 .produtos li:hover h2 {
     font-size: 25px;
@@ -113,18 +107,21 @@ title {
     width: 250px;
     transition: 1s;
     border-radius: 5px;
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));  
 }
 
 .masc {
     width: 250px;
     transition: 1s;
     border-radius: 5px;
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));  
 }
 
 .pacote {
     width: 250px;
     transition: 1s;
     border-radius: 5px;
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));  
 }
 
 .progressiva {
@@ -132,12 +129,14 @@ title {
     margin: 0 40 1.5%;
     transition: 1s;
     border-radius: 5px;
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));  
 }
 
 .botox {
     width: 250px;
     transition: 1s;
     border-radius: 5px;
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));  
 }
 
 .descricao {
@@ -163,13 +162,48 @@ footer {
     width: 400px;
     background-color: #000000;
     color: whitesmoke;
-    filter: opacity(0.4) drop-shadow(0 0 0 #000000);
 }
 
 .parte {
     color: whitesmoke;
 }
 
-.imgfo {
-    filter: opacity(0.4) drop-shadow(0 0 0 #000000);
+.home {
+    width: 50px;
+}
+
+.home:hover {
+    transition: 1s all;
+    width: 55px;
+}
+
+.home:active {
+    width: 48px;
+}
+
+.tel {
+    width: 38px;
+}
+
+.tel:hover {
+    transition: 1s all;
+    width: 43px;
+}
+
+.tel:active {
+    transform: 1s all;
+    width: 36px;
+}
+
+.pin {
+    width: 45px;
+}
+
+.pin:hover {
+    transition: 1s all;
+    width: 50px;
+}
+
+.pin:active {
+    width: 43px;
 }
