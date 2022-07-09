@@ -44,6 +44,10 @@ nav a {
     border-radius: 5px;
 }
 
+.botao:active {
+    font-size: 21px;
+    transition: 00.5s;
+}
 
 .par {
     font-family: 'Montserrat', sans-serif;
