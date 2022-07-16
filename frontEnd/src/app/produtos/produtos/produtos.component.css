@@ -107,33 +107,23 @@ title {
     width: 250px;
     transition: 1s;
     border-radius: 5px;
-<<<<<<< HEAD
     filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));  
-=======
     filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));
->>>>>>> a761997921ebbd1f2195f9ddc7f493bebfbc3c7f
 }
 
 .masc {
     width: 250px;
     transition: 1s;
     border-radius: 5px;
-<<<<<<< HEAD
     filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));  
-=======
     filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));
->>>>>>> a761997921ebbd1f2195f9ddc7f493bebfbc3c7f
 }
 
 .pacote {
     width: 250px;
     transition: 1s;
     border-radius: 5px;
-<<<<<<< HEAD
     filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));  
-=======
-    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));
->>>>>>> a761997921ebbd1f2195f9ddc7f493bebfbc3c7f
 }
 
 .progressiva {
@@ -141,22 +131,14 @@ title {
     margin: 0 40 1.5%;
     transition: 1s;
     border-radius: 5px;
-<<<<<<< HEAD
     filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));  
-=======
-    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));
->>>>>>> a761997921ebbd1f2195f9ddc7f493bebfbc3c7f
 }
 
 .botox {
     width: 250px;
     transition: 1s;
     border-radius: 5px;
-<<<<<<< HEAD
-    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));  
-=======
     filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));
->>>>>>> a761997921ebbd1f2195f9ddc7f493bebfbc3c7f
 }
 
 .descricao {
@@ -188,8 +170,6 @@ footer {
     color: whitesmoke;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 .home {
     width: 50px;
 }
@@ -229,8 +209,3 @@ footer {
 .pin:active {
     width: 43px;
 }
-=======
-
->>>>>>> a761997921ebbd1f2195f9ddc7f493bebfbc3c7f
-=======
->>>>>>> P-MS-S-WEB-13-PRODUTOS-01
