@@ -11,10 +11,6 @@ p {
     color: whitesmoke;
 }
 
-img {
-    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));  
-}
-
 li {
     background-color: #000000;
 }
@@ -37,10 +33,10 @@ nav a {
     text-decoration: none;
     transition: 1s;
     color: whitesmoke;
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));  
 }
 
 nav a:hover {
-    background-color: #2b2a2a;
     transition: 1s all;
     border-radius: 5px;
 }
@@ -57,7 +53,7 @@ title {
 .produtos {
     width: 940px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 50px
 }
 
 .caixa {     
@@ -85,9 +81,7 @@ title {
     transition: 1s;
 }
 
-.produtos li:active {
-    border-color: rgb(73, 73, 73);
-}
+
 
 .produtos li:hover h2 {
     font-size: 25px;
@@ -113,18 +107,33 @@ title {
     width: 250px;
     transition: 1s;
     border-radius: 5px;
+<<<<<<< HEAD
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));  
+=======
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));
+>>>>>>> a761997921ebbd1f2195f9ddc7f493bebfbc3c7f
 }
 
 .masc {
     width: 250px;
     transition: 1s;
     border-radius: 5px;
+<<<<<<< HEAD
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));  
+=======
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));
+>>>>>>> a761997921ebbd1f2195f9ddc7f493bebfbc3c7f
 }
 
 .pacote {
     width: 250px;
     transition: 1s;
     border-radius: 5px;
+<<<<<<< HEAD
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));  
+=======
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));
+>>>>>>> a761997921ebbd1f2195f9ddc7f493bebfbc3c7f
 }
 
 .progressiva {
@@ -132,12 +141,22 @@ title {
     margin: 0 40 1.5%;
     transition: 1s;
     border-radius: 5px;
+<<<<<<< HEAD
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));  
+=======
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));
+>>>>>>> a761997921ebbd1f2195f9ddc7f493bebfbc3c7f
 }
 
 .botox {
     width: 250px;
     transition: 1s;
     border-radius: 5px;
+<<<<<<< HEAD
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));  
+=======
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));
+>>>>>>> a761997921ebbd1f2195f9ddc7f493bebfbc3c7f
 }
 
 .descricao {
@@ -163,13 +182,9 @@ footer {
     width: 400px;
     background-color: #000000;
     color: whitesmoke;
-    filter: opacity(0.4) drop-shadow(0 0 0 #000000);
 }
 
 .parte {
     color: whitesmoke;
 }
 
-.imgfo {
-    filter: opacity(0.4) drop-shadow(0 0 0 #000000);
-}
