@@ -41,7 +41,9 @@ height: 300px;
 nav ul{
     position: relative;
    margin-left: 1200px;
-   top: 200px;
+
+
+   
    }
 nav li {
     display: inline;
@@ -69,3 +71,7 @@ nav a:active {
     font-size: 19px;
 }
 
+.home {
+    width: 10px;
+    filter: opacity(0.4) drop-shadow(0 0 0 #fff);
+}
