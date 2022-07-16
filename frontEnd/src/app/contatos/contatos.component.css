@@ -215,6 +215,8 @@ main {
 .cpar::before {
     content: "★";
 }
+<<<<<<< HEAD
+=======
 
 .home {
     filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));
@@ -230,3 +232,4 @@ main {
     filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));  
     width: 60px;
 }
+>>>>>>> 3fb1e061095d81ccd7be2024fa7d93dc6b0f3787
