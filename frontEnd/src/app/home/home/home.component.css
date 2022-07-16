@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
 
 p {
     font-family: 'Montserrat', sans-serif;
@@ -48,11 +52,13 @@ nav a {
 .par {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    font-size: 25px;
 }
 
 .para {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    font-size: 22px;
 }
 
 .imgt {
@@ -69,14 +75,15 @@ nav a {
 }
 
 .listabene {
-    width: 60%;
+    width: 350px;
     display: inline-block;
     vertical-align: top;
+    font-size: 22px;
 }
 
 .itensbene {
     line-height: 1.5;
-    font-size: 13px;
+    font-size: 20px;
 }
 
 .itensbene::before {
@@ -92,6 +99,7 @@ nav a {
     display: inline-block;
     padding: 10px 200px 5px 30px;
     width: 350px;
+    height: 300px;
     margin: 20px 5px 10px;
     box-shadow: 10px 10px 16px;
 }
@@ -99,6 +107,7 @@ nav a {
 .imagemtep {
     width: 200px;
     filter: opacity(0.4) drop-shadow(0 0 0 whitesmoke);
+    margin-left: 250px;
 }
 
 @media screen and (max-width: 480px) {
@@ -108,7 +117,7 @@ nav a {
 }
 
 .paragrafo {
-    margin-left: 180px;
+    font-size: 25px;
 }
 
 .imagemsis {
@@ -130,4 +139,10 @@ nav a {
 
 .copyr {
   width: 350px;
+}
+
+.fotohome {
+    margin-left: 50px;
+    width: 550px;
+    height: 700px;
 }
