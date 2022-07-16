@@ -53,7 +53,8 @@ title {
 .produtos {
     width: 940px;
     margin: 0 auto;
-    padding: 50px
+    padding: 100px;
+    padding-bottom: 10px;
 }
 
 .caixa {     
@@ -108,7 +109,6 @@ title {
     transition: 1s;
     border-radius: 5px;
     filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));  
-    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));
 }
 
 .masc {
@@ -116,7 +116,6 @@ title {
     transition: 1s;
     border-radius: 5px;
     filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));  
-    filter: opacity(0.4) drop-shadow(0 0 0 rgb(255, 255, 255));
 }
 
 .pacote {
