@@ -14,134 +14,134 @@
 
 .antes{
     position:absolute;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     top: 100px;
 } 
 .parantes{
     position:absolute;
-    top:350px;
+    top:400px;
     color: whitesmoke;
     width: 250px;
     height: 20px;
-    padding: 1px 20px 10px 20px;
-    
+    padding: 10px 30px 10px 20px;
+    margin-left: 90px;  
  
 }
 .depois{
     position:absolute;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     top: 100px;
-    margin-left: 260px;
+    margin-left: 350px;
 }
 .pardepois{
     position:absolute;
-    top:350px;
+    top:400px;
     color: whitesmoke;
     width: 250px;
-    padding: 1px 20px 10px 20px;
-    margin-left: 320px;
+    padding: 10px 30px 10px 20px;
+    margin-left: 430px;
 }
 
 .antes1{
     position:absolute;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     top: 100px;
-    margin-left: 550px;
+    margin-left: 700px;
 } 
 .parantes1{
     position:absolute;
-    top:350px;
-    margin-left: 640px;
+    top:400px;
+    margin-left: 790px;
     color: whitesmoke;
-    width: 250px;
+    width: 300px;
     height: 20px;
-    padding: 1px 20px 10px 20px;
+    padding: 10px 30px 10px 20px;
 }
 
 .depois1{
     position:absolute;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     top: 100px;
-    margin-left: 810px;
+    margin-left: 1050px;
 }
 
 .pardepois1{
     position:absolute;
-    top:350px;
-    margin-left: 900px;
+    top:400px;
+    margin-left: 1130px;
     color: whitesmoke;
-    width: 250px;
+    width: 300px;
     height: 20px;
-    padding: 1px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
 }
 
 .antes2{
     position:absolute;
-    width: 250px;
-    height: 250px;
-    top: 400px;
+    width: 300px;
+    height: 300px;
+    top: 450px;
 } 
 .parantes2{
     position:absolute;
-    top:650px;
-    left: 150px;
+    top:750px;
+    left: 200px;
     color: whitesmoke;
-    width: 250px;
+    width: 300px;
     height: 20px;
-    padding: 1px 20px 10px 20px;    
+    padding: 10px 20px 10px 20px;    
  
 }
 .depois2{
     position:absolute;
-    width: 250px;
-    height: 250px;
-    top: 400px;
-    margin-left: 260px;
+    width: 300px;
+    height: 300px;
+    top: 450px;
+    margin-left: 350px;
 }
 .pardepois2{
     position:absolute;
-    top:650px;
+    top:750px;
     color: whitesmoke;
-    width: 250px;
-    padding: 1px 20px 10px 20px;
-    margin-left: 320px;
+    width: 300px;
+    padding: 10px 20px 10px 20px;
+    margin-left: 430px;
 }
 
 .antes3{
     position:absolute;
-    width: 250px;
-    height: 250px;
-    top: 400px;
-    margin-left: 550px;
+    width: 300px;
+    height: 300px;
+    top: 450px;
+    margin-left: 700px;
 } 
 .parantes3{
     position:absolute;
-    top:650px;
-    margin-left: 640px;
+    top:750px;
+    margin-left: 800px;
     color: whitesmoke;
-    width: 250px;
+    width: 300px;
     height: 20px;
-    padding: 1px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
 }
 
 .depois3{
     position:absolute;
-    width: 250px;
-    height: 250px;
-    top: 400px;
-    margin-left: 811px;
+    width: 300px;
+    height: 300px;
+    top: 450px;
+    margin-left: 1051px;
 }
 
 .pardepois3{
     position:absolute;
-    top:650px;
-    margin-left: 900px;
+    top:750px;
+    margin-left: 1130px;
     color: whitesmoke;
-    width: 250px;
+    width: 300px;
     height: 20px;
-    padding: 1px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
 }
