@@ -8,14 +8,14 @@ import { ProdutosComponent } from './produtos/produtos/produtos.component';
 import { ContatosComponent } from './contatos/contatos.component';
 import { LoginComponent } from './componentes/login/login.component';
 
+
 const APP_ROUTES: Routes = [ 
 {path: "", component:AppComponent},     
 {path: "home", component:HomeComponent} ,   
-{ path: "fotos", component: PhotosComponent},
+{ path: "fotos", component: LoginComponent},
+//{ path: "fotos", component: PhotosComponent},
 { path: "produtos", component: ProdutosComponent},
 { path: "contatos", component: ContatosComponent},
-{ path: "login", component: LoginComponent},
-
 ];
 
 export const appRoutingProviders: any[] = [];
