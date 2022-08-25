@@ -6,7 +6,7 @@ import { LoginComponent } from './login.component';
 import { AuthService } from '../auth.service.component';
 import { FormsModule } from '@angular/forms'; 
 import { routing } from 'src/app/app.routing';
-
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -19,6 +19,7 @@ import { routing } from 'src/app/app.routing';
     FormsModule,
     routing,
     AuthService,
+    HttpClientModule
   ]
 })
 export class LoginModule { }

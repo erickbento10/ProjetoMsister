@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Router } from '@angular/router';
+import { Route, Router, RouterModule } from '@angular/router';
 import { Usuario } from './login/usuario.component';
 
 @Injectable()
@@ -13,11 +13,12 @@ export class AuthService {
     if ( usuario.nome === 'usuario@email.com' &&
         usuario.senha === '123456'){
  
-       this.usuarioAutenticado = true;
+      this.usuarioAutenticado = true;
 
-      this.router.navigate(['fotos']);
-    }else {
-      this.usuarioAutenticado = false;
+     this.router.navigate(['login']);
+  }else {
+    this.usuarioAutenticado = false;
+ // console.log("fazerLogin");
  }
 }
 }

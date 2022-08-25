@@ -1,23 +1,23 @@
-import { PhotosModule } from './photos/photos.module';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { routing } from './app.routing';
-import { ContatosComponent } from './contatos/contatos.component';
 import { AuthService } from './componentes/auth.service.component';
 import { FormsModule } from '@angular/forms';
-import { LoginComponent } from './componentes/login/login.component';
+import { HttpClientJsonpModule, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
-      
+          
   ],
   imports: [
     BrowserModule,
     routing,
     FormsModule,
+   HttpClientModule
+
   ],
   providers: [AuthService],
     bootstrap: [AppComponent]
